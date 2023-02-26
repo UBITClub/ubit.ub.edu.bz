@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+</script>
+
+<main>
+<h1 class="text-xl font-bold text-gray-900 px-4 py-2">UBIT</h1>
+<p class="text-sm font-light text-gray-500">Page deployed</p>
+</main>
+
+<style>
+</style>
