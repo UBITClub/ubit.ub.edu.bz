@@ -1,7 +1,7 @@
 <script lang="ts">
 </script>
 
-<main>
+
 
    <svelte:head>
       <title>UBIT | 503</title>
@@ -14,6 +14,9 @@
       />
       <!--- link href="assets/css/styles.css" rel="stylesheet" / --->
    </svelte:head>
+<main>
+
+
 
       <div class="main-content" style="">
          <div class="display-table">
