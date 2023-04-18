@@ -24,5 +24,6 @@ jobs:
         # Version of the flyctl CLI to install. If unspecified or set to "latest",
         # the latest version for the target platform will be installed. Example: "0.0.306".
         version: latest
+    - name: Deploy code to server
     - run: |
         flyctl deploy -t ${{ secrets.FLYIO_ACCESS }}
