@@ -60,15 +60,15 @@
 </main>
 <footer class="p-12">
 	<div class="navigation flex justify-around w-full items-center text-white">
-		<div class="logo flex" style="color: #FCFCFC">
+		<div class="logo flex justify-center items-center" style="color: #FCFCFC">
 			<img src="/ubit.svg" alt="UBIT Logo" class="w-28" />
-			<div class="block footer-info px-8">
+			<div class="lg:block footer-info px-8 hidden">
 				<div class="footer-title font-encode font-normal">UBIT Club</div>
 				<div class="footer-subtitle font-encode font-light">"We are the future!"</div>
 			</div>
 		</div>
 		<div class="whitespace spacer w-full lg:flex flex-1 hidden">&nbsp;</div>
-		<div class="nav-elements flex flex-1 justify-around items-center">
+		<div class="nav-elements lg:flex flex-1 justify-around items-center hidden">
 			<a href="https://www.instagram.com/ubitclub/" target="__blank">
 				<div class="navlink cursor-pointer hover:opacity-90" style="color: #FCFCFC">
 					<Fa icon={faInstagram} size="46" />
