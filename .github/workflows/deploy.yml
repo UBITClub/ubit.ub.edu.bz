@@ -25,5 +25,5 @@ jobs:
         # the latest version for the target platform will be installed. Example: "0.0.306".
         version: latest
     - name: Deploy code to server
-    - run: |
+      run: |
         flyctl deploy -t ${{ secrets.FLYIO_ACCESS }}
