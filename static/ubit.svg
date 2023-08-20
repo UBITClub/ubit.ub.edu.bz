@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="541.30811"
+   height="151.38641"
+   viewBox="0 0 541.30811 151.38641"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="g1"
+     transform="translate(-0.28933336,0.90831891)">
+    <path
+       style="fill:none;stroke:white;stroke-width:4;stroke-linejoin:round;"
+       d="M 0.78933336,-0.39466668 V 126.688 l 22.89066764,-0.39466 0,19.33867 81.301339,-0.78934 -0.39467,-19.73333 L 127.872,124.71467 128.26667,0 84.853336,0 83.27467,125.504 44.597335,126.29334 44.992002,0 Z"
+       id="path1" />
+    <path
+       style="fill:none;stroke:white;stroke-width:4;stroke-linejoin:round;"
+       d="m 149.57867,0.78933336 -1.184,146.81600664 105.77067,0.39467 0.78934,-19.33867 3.552,-4.34134 18.94399,-0.39467 -0.39466,-37.09866 h -20.52267 l 0.39467,-24.074668 h 19.73333 V 21.312001 l -19.73333,-0.394667 0.39467,-20.12800064 z"
+       id="path2" />
+    <path
+       style="fill:none;stroke:white;stroke-width:4;stroke-linejoin:round;"
+       d="m 192.59734,20.917335 -0.39467,43.018667 42.62401,0.394667 V 21.312 Z"
+       id="path3" />
+    <path
+       style="fill:none;stroke:white;stroke-width:4;stroke-linejoin:round;"
+       d="m 190.62401,84.45867 -0.39467,44.20267 h 44.992 l 0.78934,-43.413337 z"
+       id="path4" />
+    <path
+       style="fill:none;stroke:white;stroke-width:4;stroke-linejoin:round;"
+       d="M 301.52534,0.78933336 V 24.469334 h 19.33867 L 320.07468,127.872 300.73601,127.47734 v 22.496 l 83.27467,-0.78933 -0.78933,-23.28534 -21.312,0.39467 V 22.890668 l 22.10133,-0.394667 V 0.39466668 Z"
+       id="path5" />
+    <path
+       style="fill:none;stroke:white;stroke-width:4;stroke-linejoin:round;"
+       d="m 415.18935,1.184 v 24.469334 l 40.256,-0.394666 -1.57867,121.952002 47.36001,0.78934 -0.78934,-125.504009 40.65067,0.394667 -0.39466,-21.3120013 z"
+       id="path6" />
+  </g>
+</svg>

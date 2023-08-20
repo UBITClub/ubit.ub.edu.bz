@@ -34,6 +34,9 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@sveltejs/adapter-node": "^1.2.0"
+		"@fortawesome/free-brands-svg-icons": "^6.4.2",
+		"@fortawesome/free-solid-svg-icons": "^6.4.2",
+		"@sveltejs/adapter-node": "^1.2.0",
+		"svelte-fa": "^3.0.4"
 	}
 }
