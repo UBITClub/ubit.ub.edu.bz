@@ -14,5 +14,8 @@ export default defineConfig({
 			emitter: 'emitter-component',
 			Buffer: 'buffer/'
 		}
+	},
+	optimizeDeps: {
+		include: ['flickity']
 	}
 });

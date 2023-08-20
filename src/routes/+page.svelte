@@ -5,6 +5,46 @@
 		faGithubSquare,
 		faFacebookSquare
 	} from '@fortawesome/free-brands-svg-icons';
+	import Post from '$lib/Post.svelte';
+	import { onMount } from 'svelte';
+	import Carousel from 'svelte-flickity';
+	// Post interface
+	interface PostObject {
+		title: String;
+		description: String;
+		price: Number;
+		id: Number;
+		discountPercentage: Float;
+		rating: Float;
+		stock: Number;
+		brand: String;
+		category: String;
+		thumbnail: String;
+		images: [String];
+	}
+	// Post Object Store
+	let postData: PostObject[] = [
+		{ title: 'Fetching new Data', body: 'Waiting for the server...', id: 1, userID: 1 }
+	];
+	onMount(async () => {
+		// Ping-pong the fucking ass
+		const postRes = await fetch('https://dummyjson.com/products');
+
+		if (!postRes.ok) {
+			console.error('Failed to fetch posts properly. Try again later.');
+		}
+		// Awwh yeah!
+		postData = await postRes.json(); // Store that motherfucker
+		postData = postData.products;
+		console.log(postData)
+	});
+
+	const options = {
+		freeScroll: true,
+		freeScrollFriction: 0.03,
+		wrapAround: true,
+		pageDots: false
+	};
 </script>
 
 <main>
@@ -37,7 +77,28 @@
 	</div>
 	<div class="join-stats px-12 py-4 bg-gray-100">And others have joined.</div>
 	<div class="content p-12">
-		<div class="eventspane py-12 font-light">[ENETUNREACH]: Could not contact global handler.</div>
+		<!-- <div class="eventspane py-12 font-light">[ENETUNREACH]: Could not contact global handler.</div> -->
+		{#if postData.length > 1}
+			<Carousel {options}>
+				{#each postData as { title, description, images }}
+					<div class="carousel-cell mx-20 lg:mx-12 bg-gray-50 rounded-md">
+						<Post {title} body={description} image={images[0]} href="lol" />
+					</div>
+				{/each}
+			</Carousel>
+		{:else}
+			<Carousel {options}>
+				<div class="carousel-cell bg-gray-50 rounded-md mx-12">
+					<Post
+						title={postData[0].title}
+						body={postData[0].body}
+						image="/assets/images/tech_processorcircuit2.jpg"
+						href="lol"
+					/>
+				</div></Carousel
+			>
+		{/if}
+
 		<div class="hero2 overflow-clip relative rounded-md my-12">
 			<div
 				class="twist-div-overlay2 absolute bg-black opacity-40 rotate-45 h-screen w-full"
@@ -100,5 +161,12 @@
 	footer {
 		background: url('/assets/images/headerf22.jpg');
 		background-size: cover;
+	}
+	.carousel-cell {
+		width: 33.333%; /* full width */
+		height: 500px; /* height of carousel */
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 </style>
