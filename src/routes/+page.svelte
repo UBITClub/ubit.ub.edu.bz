@@ -78,26 +78,7 @@
 	<div class="join-stats px-12 py-4 bg-gray-100">And others have joined.</div>
 	<div class="content p-12">
 		<!-- <div class="eventspane py-12 font-light">[ENETUNREACH]: Could not contact global handler.</div> -->
-		{#if postData.length > 1}
-			<Carousel {options}>
-				{#each postData as { title, description, images }}
-					<div class="carousel-cell mx-20 lg:mx-12 bg-gray-50 rounded-md">
-						<Post {title} body={description} image={images[0]} href="lol" />
-					</div>
-				{/each}
-			</Carousel>
-		{:else}
-			<Carousel {options}>
-				<div class="carousel-cell bg-gray-50 rounded-md mx-12">
-					<Post
-						title={postData[0].title}
-						body={postData[0].body}
-						image="/assets/images/tech_processorcircuit2.jpg"
-						href="lol"
-					/>
-				</div></Carousel
-			>
-		{/if}
+	
 
 		<div class="hero2 overflow-clip relative rounded-md my-12">
 			<div
