@@ -323,7 +323,7 @@
 						Meet Annika, somebody who does something!
 						<div class="flex w-full justify-start items-center">
 							<div
-							class="text-lg my-10 lg:text-lg text-center font-semibold bg-gradient-to-r from-orange-600 to-yellow-400 text-gray-200 rounded px-4 py-2 cursor-pointer hover:opacity-90 w-fit block"
+							class="text-lg my-10 lg:text-lg text-center font-semibold bg-gradient-to-r from-orange-600 to-yellow-400 text-white rounded px-4 py-2 cursor-pointer hover:opacity-90 w-fit block"
 						>
 							Read Our Constitution
 						</div>
