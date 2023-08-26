@@ -77,7 +77,7 @@
 				<div class="whitespace w-full hidden lg:block">&nbsp;</div>
 			</div>
 			<div
-				class="signup-button signup-action rounded-md bg-gradient-to-r from-red-600 to-orange-300 font-bold text-white px-4 py-2 w-fit text-lg cursor-pointer hover:opacity-90"
+				class="signup-button signup-action rounded-md bg-gradient-to-r from-red-600 to-orange-300 font-bold text-white px-4 py-2 select-none w-fit text-lg cursor-pointer hover:opacity-90"
 			>
 				Sign Up
 			</div>
@@ -177,7 +177,7 @@
 				</div>
 				<div class="flex w-full justify-center items-center font-normal my-4">
 					<div
-						class="signup-button signup-action rounded-md bg-gradient-to-r from-red-600 to-orange-300 font-bold text-white px-6 py-3 w-fit text-xl cursor-pointer hover:opacity-90"
+						class="signup-button signup-action select-none rounded-md bg-gradient-to-r from-red-600 to-orange-300 font-bold text-white px-6 py-3 w-fit text-xl cursor-pointer hover:opacity-90"
 					>
 						Sign Up
 					</div>
@@ -331,7 +331,7 @@
 						Meet Annika, somebody who does something!
 						<div class="flex w-full justify-start items-center">
 							<div
-							class="text-lg my-10 lg:text-lg text-center font-semibold bg-gradient-to-r from-orange-600 to-yellow-400 text-white rounded px-4 py-2 cursor-pointer hover:opacity-90 w-fit block"
+							class="text-lg my-10 lg:text-lg select-none text-center font-semibold bg-gradient-to-r from-orange-600 to-yellow-400 text-white rounded px-4 py-2 cursor-pointer hover:opacity-90 w-fit block"
 						>
 							Read Our Constitution
 						</div>
