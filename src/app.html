@@ -2,17 +2,79 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<!-- [BOILERPLATE] Favicon Start -->
+		<!-- Yeah I know the icons are fucked, but honestly nobody cares tbh -->
+		<!-- Taskbar, MacOS, Smart Devices -->
+		<link
+			rel="icon"
+			type="image/x-icon"
+			href="https://avatars.githubusercontent.com/u/124397709"
+			sizes="32x32"
+		/>
+		<!-- Standard -->
+		<link
+			rel="icon"
+			type="image/x-icon"
+			href="https://avatars.githubusercontent.com/u/124397709"
+			sizes="16x16"
+		/>
+		<!--- Chrome -->
+		<link rel="icon" type="image/png" href="https://avatars.githubusercontent.com/u/124397709 />
+		<!-- Chrome -->
+		<link rel="icon" type="image/png" href="https://avatars.githubusercontent.com/u/124397709" />
+		<!-- Shortcut -->
+		<link rel="icon" type="image/png" href="https://avatars.githubusercontent.com/u/124397709" />
+		<!-- [BOILERPLATE] Favicon End -->
+		<!--- META Start -->
+		<!-- Primary Meta Tags -->
+		<title>UBIT — Where tech enthusiasts thrive together</title>
+		<meta name="title" content="UBIT — Where tech enthusiasts thrive together" />
+		<meta
+			name="description"
+			content="Dive into the dynamic world of computer science with us to transform intricate concepts into exciting adventures, even for newcomers."
+		/>
+
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://ubit.ub.edu.bz/" />
+		<meta property="og:title" content="UBIT — Where tech enthusiasts thrive together" />
+		<meta
+			property="og:description"
+			content="Dive into the dynamic world of computer science with us to transform intricate concepts into exciting adventures, even for newcomers."
+		/>
+		<meta property="og:image" content="https://avatars.githubusercontent.com/u/124397709" />
+
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://ubit.ub.edu.bz/" />
+		<meta property="twitter:title" content="UBIT — Where tech enthusiasts thrive together" />
+		<meta
+			property="twitter:description"
+			content="Dive into the dynamic world of computer science with us to transform intricate concepts into exciting adventures, even for newcomers."
+		/>
+		<meta property="twitter:image" content="https://avatars.githubusercontent.com/u/124397709" />
+
+		<!-- Meta Tags Generated with https://metatags.io -->
+		<!--- META End -->
 		<meta name="viewport" content="width=device-width" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta charset="UTF-8" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<!-- Unconventional fast -- https://web.dev -->
 		<link
+			rel="preload"
 			href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@100;300;400;500&family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
-			rel="stylesheet"
+			as="style"
+			onload="this.onload=null;this.rel='stylesheet'"
 		/>
+		<noscript
+			><link
+				href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@100;300;400;500&family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+				rel="stylesheet"
+		/></noscript>
+
 		<title>UBIT — Where tech enthusiasts thrive together</title>
 		%sveltekit.head%
 	</head>

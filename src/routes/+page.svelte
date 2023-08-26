@@ -45,6 +45,14 @@
 		wrapAround: true,
 		pageDots: false
 	};
+	
+	// Image imports
+	// @ts-ignore
+	import AmirFull from '$lib/assets/images/profile_pictures/amir_full.png?w=500&format=webp'; // @ts-ignore
+	import AlexDev404Full from '$lib/assets/images/profile_pictures/34188635.jpeg?w=500&format=webp'; // @ts-ignore
+	import AbelFull from '$lib/assets/images/profile_pictures/76670600.jpeg?w=500&format=webp'; // @ts-ignore
+	import CeliaFull from '$lib/assets/images/profile_pictures/celia_full.png?w=500&format=webp'; // @ts-ignore
+	import AnnikaFull from '$lib/assets/images/profile_pictures/annika_full.jpg?w=500&format=webp'; // @ts-ignore
 </script>
 
 <main>
@@ -208,7 +216,7 @@
 					class="mobile-photo flex-1 flex basis-full lg:basis-0 justify-center items-center lg:mr-4 lg:my-0 my-8 w-full overflow-clip rounded-md bg-gray-300"
 				>
 					<img
-						src="./assets/images/profile_pictures/amir_full.png"
+						src="{AmirFull}"
 						alt="Who the fuck is this?"
 						style="object-fit: cover; height: 100%;"
 						width="500px"
@@ -231,7 +239,7 @@
 					class="mobile-photo flex-1 flex basis-full lg:basis-0 justify-center items-center lg:mr-4 lg:my-0 my-8 w-full overflow-clip rounded-md bg-gray-300"
 				>
 					<img
-						src="./assets/images/profile_pictures/34188635.jpeg"
+						src="{AlexDev404Full}"
 						alt="Who the fuck is this?"
 						style="object-fit: cover; height: 100%;"
 						width="500px"
@@ -260,7 +268,7 @@
 					class="mobile-photo flex-1 flex basis-full lg:basis-0 justify-center items-center lg:mr-4 lg:my-0 my-8 w-full overflow-clip rounded-md bg-gray-300"
 				>
 					<img
-						src="./assets/images/profile_pictures/76670600.jpeg"
+						src="{AbelFull}"
 						alt="Who the fuck is this?"
 						style="object-fit: cover; height: 100%;"
 						width="500px"
@@ -284,7 +292,7 @@
 					class="mobile-photo flex-1 flex basis-full lg:basis-0 justify-center items-center lg:mr-4 lg:my-0 my-8 w-full overflow-clip rounded-md bg-gray-300"
 				>
 					<img
-						src="./assets/images/profile_pictures/celia_full.png"
+						src="{CeliaFull}"
 						alt="Who the fuck is this?"
 						style="object-fit: cover; height: 100%;"
 						width="500px"
@@ -308,7 +316,7 @@
 					class="mobile-photo flex-1 flex basis-full lg:basis-0 justify-center items-center lg:mr-4 lg:my-0 my-8 w-full overflow-clip rounded-md bg-gray-300"
 				>
 					<img
-						src="./assets/images/profile_pictures/annika_full.jpg"
+						src="{AnnikaFull}"
 						alt="Who the fuck is this?"
 						style="object-fit: cover; height: 100%;"
 						width="500px"

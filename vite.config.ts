@@ -1,9 +1,10 @@
 import { sveltekit } from '@sveltejs/kit/vite';
+import { imagetools } from 'vite-imagetools'
 import { defineConfig } from 'vite';
 import { version } from './package.json';
 
 export default defineConfig({
-	plugins: [sveltekit()],
+	plugins: [sveltekit(), imagetools()],
 	define: {
 		'process.env': {},
 		'process.platform': false,
